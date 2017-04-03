@@ -1,0 +1,33 @@
+body {
+    background-color: dimgray;
+}
+
+
+table, th {
+    
+    border: solid;
+    text-align: center;
+    margin: auto;
+    height: 63px;
+    border-collapse: collapse;
+}
+
+table {
+    width: 60%
+}
+
+h3 {
+    text-align: center;
+    margin: 52px;
+    font-size: 32px;
+    color: brown;
+    text-transform: capitalize;
+}
+
+
+.userchoicediv1 {
+    text-align: center;
+    margin: 53px;
+    color: blue;
+}
+
