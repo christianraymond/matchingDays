@@ -1,10 +1,9 @@
 body {
-    background-color: dimgray;
+    background-color: black;
 }
 
-
 table, th {
-
+    background-color:white;
     border: solid;
     text-align: center;
     margin: auto;
@@ -31,12 +30,41 @@ h3 {
     color: blue;
 }
 
-.style1 {
+.style2 {
   background-color: green;
 }
-.style2 {
-  background-color: red;
-}
-.style3 {
+.style1 {
   background-color: blue;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+ position: relative;
+}
+
+.footer {
+ background: #eee;
+ bottom: -700px;
+ text-align: center;
+ position: relative;
 }
