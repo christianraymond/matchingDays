@@ -1,10 +1,9 @@
 body {
-    background-color: dimgray;
+    background-color: black;
 }
 
-
 table, th {
-
+    background-color:white;
     border: solid;
     text-align: center;
     margin: auto;
@@ -35,8 +34,45 @@ h3 {
   background-color: red;
 }
 .style2 {
+<<<<<<< HEAD
   background-color: green;
-}
-.style3 {
+=======
   background-color: blue;
+>>>>>>> gh-pages
+}
+
+.style3 {
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+ position: relative;
+}
+
+.footer {
+ background: #eee;
+ bottom: -700px;
+ text-align: center;
+ position: relative;
 }

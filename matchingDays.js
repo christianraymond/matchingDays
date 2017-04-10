@@ -19,10 +19,10 @@ days[i]
 }
 if(dayOneValue === dayTwoValue){
   days[dayOneValue].classList.add("style1");
+   
 }
-else{
-  days[dayOneValue].classList.add("style2");
-  days[dayTwoValue].classList.add("style3");
+else { 
+    days[dayOneValue].classList.add("style2")
+     days[dayOneValue].classList.add("style3")  
 }
-
-})
+});
