@@ -18,10 +18,11 @@ days[i]
   days[i].classList.remove("style3");
 }
 if(dayOneValue === dayTwoValue){
-  days[dayOneValue].classList.add("style2");
-}
-else {
   days[dayOneValue].classList.add("style1");
+   
 }
-
-})
+else { 
+    days[dayOneValue].classList.add("style2")
+     days[dayOneValue].classList.add("style3")  
+}
+});
